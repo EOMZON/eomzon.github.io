@@ -1,62 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>webview</title>
-  </head>
-  <style type="text/css">
-    #app {
-      height: 100vh;
-    }
-  </style>
-  <body>
-    <div id="app">
-      <h1 class="title">test</h1>
-      <p class="content">
-        When I left the east coast to work in the venture capital industry, I
-        was struck by a number of realizations—east and west coast designers
-        were doing such different things, and the tech industry had changed
-        drastically while I’d been busy in academia. But the biggest surprise of
-        all was how disconnected the tech industry had become from the humanity
-        that gave birth to it all. I’ve been lucky enough to have had access to
-        a computer for forty years, and I’ve always fought to give the arts a
-        first-class role in its evolution. Yet I found few humanist
-        technologists working in Silicon Valley. Erika Hall was the exception.
-        Erika represented a point of view that was grounded in not just what the
-        technology could do, but—more importantly—in what real humans needed to
-        do. She was challenging the comfortable models of tech’s “best
-        practices,” like ubiquitously produced “personas”—artifacts that gave
-        the appearance of serving users, without necessarily teaching designers
-        how to listen to them. I like to tell designers that their job isn’t to
-        be storytellers, but to be story-listeners—people who takes the time and
-        energy to listen to others’ stories. That’s the essence of a
-        conversation: people listening to each other. And a conversational
-        design approach can help designers serve people better. “Conversational
-        design is truly human-centered design,” Erika writes, and let me tell
-        you why that resonates with me. She focuses on what designers really
-        need to know, including the idea that there is no simple solution when
-        it comes to designing for humans. At the core of Erika’s quixotic work
-        is an effort to ground the designer’s aspirational goal of empathy in
-        reality. Real people. Real feelings. Real conversations. And above all:
-        real listening. When designed well, conversational interfaces are able
-        to amplify the human-computer bond—and create a relationship grounded in
-        communication. When they work poorly, they produce mistrust. When they
-        work effectively, they promote trust. Trust lies at the heart of great
-        design. And trust begins with listening
-      </p>
-    </div>
-    <script>
-      // 接收来自rn的信息
-      window.onmessage = (e) => {
-        alert(e.data);
-      };
-
-      const data = document.querySelector('.content').textContent;
-
-      // 向rn发送消息
-      window.ReactNativeWebView.postMessage(data);
-    </script>
-  </body>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url=https://allprojects.zondev.top/zh">
+  <title>Zon · 全部项目</title>
+</head>
+<body>
+  <main>
+    <h1>Zon · 全部项目</h1>
+    <p><a href="https://allprojects.zondev.top/zh">前往 All Projects</a></p>
+  </main>
+</body>
 </html>
