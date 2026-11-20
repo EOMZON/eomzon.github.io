@@ -3,13 +3,39 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="refresh" content="0; url=https://allprojects.zondev.top/zh">
   <title>Zon · 全部项目</title>
+  <script>
+    window.location.replace('https://allprojects.zondev.top/zh');
+  </script>
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=https://allprojects.zondev.top/zh">
+  </noscript>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #fff;
+      font: 1rem system-ui, sans-serif;
+    }
+
+    main {
+      visibility: hidden;
+      animation: show-link 0s 2s forwards;
+    }
+
+    a {
+      color: #222;
+      text-underline-offset: .25em;
+    }
+
+    @keyframes show-link {
+      to { visibility: visible; }
+    }
+  </style>
 </head>
 <body>
-  <main>
-    <h1>Zon · 全部项目</h1>
-    <p><a href="https://allprojects.zondev.top/zh">前往 All Projects</a></p>
-  </main>
+  <main><a href="https://allprojects.zondev.top/zh">前往 Zon · 全部项目</a></main>
 </body>
 </html>
